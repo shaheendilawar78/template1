@@ -1,0 +1,74 @@
+*{
+    padding: 0%;
+    margin: 0%;
+   
+}
+.beach img{
+    width: 100%;
+}
+.beach{
+    position: relative;
+}
+.heading{
+    position: absolute;
+    bottom: 76px;
+    background-color:#ffc107c6;
+    width: 68.9%;
+    padding-top: 10.5px ;
+    font-family: "Segoe UI",Arial,sans-serif;
+    font-size: 20px;
+    line-height: 1.5;
+    padding-left: 16px;
+    padding-bottom: 10px;
+    opacity: 0.9;
+   
+}
+.heading h2{
+    font-weight: 700;
+    opacity: 0.9;
+   
+}
+
+.heading:hover{
+    background-color:#ff9800;
+}
+.parent{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 30px 32px 10px 32px;
+    justify-content: space-between;
+}
+.cards{
+    width: calc(50% - 16px);
+    box-sizing: border-box;
+    border-top: 5.5px solid #ffc107;
+    /* margin-bottom: 63px; */
+    margin: 15px 0 50px 0;
+}
+
+.cards img{
+    width: 100%;
+}
+
+.cards h2{
+    font-family: "Segoe UI",Arial,sans-serif;
+    font-weight: 400;
+    margin: 10px 0px;
+    font-size: 30px;
+}
+.cards p{
+    font-family: Verdana,sans-serif;
+    font-size: 15px;
+    line-height: 1.9;
+    padding-top: 4px;
+    
+}
+@media only screen and (max-width:600px) {
+    .cards{
+        width: 100%;
+    }
+    .heading{
+        display: none;
+    }
+    
+}
